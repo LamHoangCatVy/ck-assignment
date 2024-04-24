@@ -300,7 +300,7 @@ variable "identifier" {
 variable "instance_class" {
   description = "Instance Type of the Database"
   type        = string
-  default     = "db.t2.nano"
+  default     = "db.t3.micro"
 }
 
 variable "multi_az" {
